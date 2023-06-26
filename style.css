@@ -1,0 +1,79 @@
+body {
+    color: #fff;
+    font-family: "Lucida Console", Monaco, monospace;
+    line-height: 1.5;
+    background: linear-gradient(315deg, #ffffff, #d7e1ec);
+}
+
+/*Pure css browser window*/
+/*browser window start*/
+.browser-window {
+    /* max-width: 500px; */
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #333;
+    padding: 45px 20px 20px;
+    box-sizing: border-box;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.5);
+    border-radius: 15px 15px 0 0;
+}
+
+
+.browser-bar {
+    font-size: 12px;
+    background-color: #333;
+    border-bottom: solid 1px black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 5px;
+    /* overflow: hidden; */
+    border-radius: 10px 10px 0 0;
+}
+
+/*browser- bar button group*/
+.button {
+    float: left;
+    display: inline-block;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+}
+
+/*Close, minimize maximiza buttons*/
+.close {
+    background: #fc635d;
+}
+
+.min {
+    background: #fdbc40;
+}
+
+.max {
+    background: #34c84a;
+}
+
+/*browser window ends*/
+
+textarea {
+    color: rgb(255, 255, 255);
+    overflow: hidden;
+    font-size: 110%;
+    border: none;
+    outline: none;
+    background: #1d1d1d;
+    padding: 11px 25px;
+    border-radius: 10px;
+    font-weight: 600;
+    cursor: pointer;
+    height: 100%;
+    /* width: 100%; */
+    resize: none;
+}
